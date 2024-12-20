@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* User Info */
+h3, p {
+    color: #343a40;
+}
+
+/* Listings Section */
+#userListings {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item button {
+    margin-left: 10px;
+}
+
+/* Modal styling */
+.modal-header {
+    background-color: #555555;
+    color: white;
+}
+
+/* Reservations */
+.reservation-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.reservation-item h5 {
+    font-weight: bold;
+    color: #333;
+}
+
+.reservation-item p {
+    margin: 0;
+    color: #555;
+}
+
+#userListings p.text-muted {
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem 0;
+    color: #6c757d;
+}
+
+.review-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.review-item h5 {
+    color: #f39c12;
+}
+

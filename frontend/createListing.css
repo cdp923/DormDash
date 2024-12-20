@@ -1,0 +1,60 @@
+/* General Page Styling */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333333; /* Dark gray text */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card Styling */
+.card {
+    background-color: #e6e6e6; /* Slightly darker gray for card background */
+    border-radius: 12px;
+}
+
+.card h2 {
+    color: #444444; /* Medium dark gray for headings */
+}
+
+/* Form Inputs */
+.form-control {
+    background-color: #f9f9f9; /* Subtle gray for inputs */
+    border: 1px solid #cccccc;
+    color: #333333;
+}
+
+.form-control:focus {
+    background-color: #ffffff; /* White for focus */
+    border-color: #666666; /* Darker border on focus */
+    box-shadow: none;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #555555; /* Dark gray for primary buttons */
+    border-color: #444444;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #333333; /* Darker gray on hover */
+    border-color: #222222;
+}
+
+/* Labels */
+.form-label {
+    color: #555555;
+}
+
+/* Listing Form Container */
+.container {
+    max-width: 600px; /* Centered form with width constraints */
+}
+
+/* Additional Styling */
+.bg-light-gray {
+    background-color: #e6e6e6;
+}
+
+.text-dark-gray {
+    color: #444444;
+}

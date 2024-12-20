@@ -1,0 +1,61 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header Styling */
+header {
+    background-image: url('headerBackground.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Main Content Styling */
+main h2 {
+    color: #343a40;
+}
+
+main img {
+    max-width: 80%;
+    border-radius: 15px;
+}
+
+/* Why Choose Dorm Dash Section */
+section.bg-light h3 {
+    color: #007bff;
+}
+
+section.bg-light img {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/* Why Choose Dorm Dash Heading */
+section.bg-light h3 {
+    color: black; /* Set the color to black */
+    font-weight: bold; /* Optional: Make it bold */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+footer a {
+    color: #f8f9fa;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #adb5bd;
+}
+
+/* Carousel Captions Styling */
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for contrast */
+    color: black; /* Black text */
+    padding: 15px;
+    border-radius: 10px;
+}

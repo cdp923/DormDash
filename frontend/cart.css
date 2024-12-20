@@ -1,0 +1,26 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.cart-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.cart-item h5 {
+    font-weight: bold;
+    color: #333;
+}
+
+.cart-item p {
+    margin: 0;
+    color: #555;
+}
+
+#checkoutButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}

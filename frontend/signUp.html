@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="userloginandreg.css">
+    <script type="text/javascript" src="SignUp.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <h1>Sign Up</h1>
+    <p>Sign up with your TU email.</p>
+    <form name="signUpForm" onsubmit="return validateForm(event)">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your TU email">
+
+        <p style="color: red; font-weight: bold;">You need to have both CashApp and Venmo.</p>
+
+        <label for="cashApp" class="form-label">CashApp Username</label>
+        <input type="text" class="form-control" id="cashApp" name="cashApp" placeholder="$yourUsername">
+
+        <label for="venmo" class="form-label">Venmo Username</label>
+        <input type="text" class="form-control" id="venmo" name="venmo" placeholder="@yourUsername">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password">
+
+        <label for="checkPassword">Re-enter Password:</label>
+        <input type="password" id="checkPassword" name="checkPassword" required placeholder="Re-enter your password">
+
+        <button type="submit">Sign Up</button>
+    </form>
+</div>
+</body>
+
+</html>
